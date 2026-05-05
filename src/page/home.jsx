@@ -1,6 +1,6 @@
 export default function HomePage(){
     return(
-        <div className="bg-primary">
+        <div >
             Home page
         </div>
     )
