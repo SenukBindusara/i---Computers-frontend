@@ -8,10 +8,10 @@ import { Route } from "react-router"
 function App() {
 
   return (
-    <div >
+    <div className="w-full h-screen  bg-red-900">
       <Routes>
         <Route path="/" element={<HomePage/>}/>
-        <Route path="/admin" element ={<AdminPage/>}/>
+        <Route path="/admin/*" element ={<AdminPage/>}/>
         <Route path="/login" element = {<LoginPage/>}/>
       </Routes>
 
